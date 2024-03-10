@@ -1,0 +1,65 @@
+﻿{
+  "Routes": [
+    
+    //{
+    //  "DownstreamPathTemplate": "/api/Auth/{everything}",
+    //  "DownstreamScheme": "https",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 7121
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/auth/{everything}",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ]
+    //},
+
+    //,
+    {
+      "UpstreamPathTemplate": "/api/Test",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7034"
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Account/Test",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "Role": "Admin"
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/api/auth",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7034"
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Account/Authenticate",
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "60s",
+        "PeriodTimespan": 60,
+        "Limit": 1
+      }
+    }
+
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7074",
+    "RateLimitOptions": {
+      "QuotaExceededMessage": "Request not allowed",
+      "HttpStatusCode": 909
+    }
+  }
+}

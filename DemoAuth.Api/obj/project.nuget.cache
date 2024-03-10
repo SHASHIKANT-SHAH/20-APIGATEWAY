@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "FVWJdUVzkGUBlEA6bdWpV3aYOpzPnMNSqzMyKCZC7YIOWus1caVjR/8PQpqo+is1oXR+ekkP13GRylHfHlOn0w==",
+  "success": true,
+  "projectFilePath": "D:\\0-MostImportant\\Superapp\\2-Microservice-Projects\\SuperApp\\APIGateway\\DemoAuth.Api\\DemoAuth.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shash\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.7\\microsoft.aspnetcore.authentication.jwtbearer.6.0.7.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.4.0\\microsoft.identitymodel.abstractions.7.4.0.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.4.0\\microsoft.identitymodel.jsonwebtokens.7.4.0.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\microsoft.identitymodel.logging\\7.4.0\\microsoft.identitymodel.logging.7.4.0.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.10.0\\microsoft.identitymodel.protocols.6.10.0.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.10.0\\microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.4.0\\microsoft.identitymodel.tokens.7.4.0.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.4.0\\system.identitymodel.tokens.jwt.7.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

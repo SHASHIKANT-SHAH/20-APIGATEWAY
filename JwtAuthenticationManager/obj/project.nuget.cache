@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "FEwFIwzpaY8nAjrDBKEF/NYGN3nUsn9x/yDAnPA4LOqm+fCLMTi5rOF2hl3hKckbpRyc7WhEQMBMiOixufqveQ==",
+  "success": true,
+  "projectFilePath": "D:\\0-MostImportant\\Superapp\\2-Microservice-Projects\\SuperApp\\APIGateway\\JwtAuthenticationManager\\JwtAuthenticationManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shash\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.7\\microsoft.aspnetcore.authentication.jwtbearer.6.0.7.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.4.0\\microsoft.identitymodel.abstractions.7.4.0.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.4.0\\microsoft.identitymodel.jsonwebtokens.7.4.0.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\microsoft.identitymodel.logging\\7.4.0\\microsoft.identitymodel.logging.7.4.0.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.10.0\\microsoft.identitymodel.protocols.6.10.0.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.10.0\\microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.4.0\\microsoft.identitymodel.tokens.7.4.0.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.4.0\\system.identitymodel.tokens.jwt.7.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
